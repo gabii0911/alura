@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS 2077 | O Futuro da IA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="particles" id="particles"></div>
+
+    <header>
+        <div class="logo">NEXUS<span>.AI</span></div>
+        <div class="status">
+            <span class="dot"></span> SISTEMA ONLINE
+        </div>
+    </header>
+
+    <main class="hero">
+
+        <div class="hero-content">
+
+            <div class="tag">PROJETO FUTURO 2077</div>
+
+            <h1>
+                O FUTURO DA<br>
+                <span>INTELIGÊNCIA</span><br>
+                ARTIFICIAL.
+            </h1>
+
+            <p>
+                A humanidade chegou a um ponto decisivo.
+                Suas escolhas podem mudar o destino da inteligência artificial.
+                Você está preparado para decidir?
+            </p>
+
+            <button class="start-btn" onclick="startExperience()">
+                INICIAR EXPERIÊNCIA <span>↗</span>
+            </button>
+
+            <div class="coordinates">
+                SISTEMA NEXUS // ACESSO AUTORIZADO
+            </div>
+
+        </div>
+
+        <div class="character-area">
+            <div class="circle circle-one"></div>
+            <div class="circle circle-two"></div>
+
+            <div class="character">
+                <div class="character-face">
+                    <div class="eye"></div>
+                    <div class="eye"></div>
+                </div>
+                <div class="character-neck"></div>
+                <div class="character-body"></div>
+            </div>
+
+            <div class="character-label">
+                <span>ENTITY 001</span>
+                <small>INTELIGÊNCIA ARTIFICIAL</small>
+            </div>
+        </div>
+
+    </main>
+
+    <section class="quiz" id="quiz">
+
+        <div class="quiz-container">
+
+            <div class="quiz-top">
+                <span>PROTOCOLO DE DECISÃO</span>
+                <span id="progress">01 / 05</span>
+            </div>
+
+            <div class="progress-bar">
+                <div id="progressFill"></div>
+            </div>
+
+            <div class="question-area">
+                <div class="question-tag">PERGUNTA <span id="number">01</span></div>
+
+                <h2 id="question">
+                    A inteligência artificial deve ter autonomia para tomar decisões importantes?
+                </h2>
+
+                <div class="answers" id="answers"></div>
+            </div>
+
+            <div class="ai-message" id="aiMessage">
+                NEXUS: Estou aguardando sua decisão, humano.
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="result" id="result">
+        <div class="result-box">
+            <div class="tag">SIMULAÇÃO FINALIZADA</div>
+            <h2>O FUTURO FOI <span>DECIDIDO.</span></h2>
+            <p id="resultText"></p>
+            <button class="start-btn" onclick="restartExperience()">
+                REINICIAR SIMULAÇÃO ↻
+            </button>
+        </div>
+    </section>
+
+    <footer>
+        NEXUS.AI © 2077 — O FUTURO ESTÁ EM SUAS MÃOS.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
